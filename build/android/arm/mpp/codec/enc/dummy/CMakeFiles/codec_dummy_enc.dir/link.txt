@@ -1,0 +1,2 @@
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc-ar cr libcodec_dummy_enc.a  CMakeFiles/codec_dummy_enc.dir/dummy_enc_api.c.o
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ranlib libcodec_dummy_enc.a

@@ -1,0 +1,2 @@
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc-ar cr libmpp_legacy.a  CMakeFiles/mpp_legacy.dir/vpu_api.cpp.o CMakeFiles/mpp_legacy.dir/vpu_api_legacy.cpp.o CMakeFiles/mpp_legacy.dir/vpu_mem_legacy.c.o CMakeFiles/mpp_legacy.dir/rk_list.cpp.o CMakeFiles/mpp_legacy.dir/ppOp.cpp.o CMakeFiles/mpp_legacy.dir/__/mpp_info.cpp.o
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ranlib libmpp_legacy.a

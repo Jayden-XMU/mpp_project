@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{A9034C40-5B8D-35D0-9AB3-9F5EAB7EC12F}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\mpp_debug\mpp\osal\window\pthread\inc;F:\mpp_debug\mpp\osal\window\pthread\lib\x64;F:\mpp_debug\mpp\osal\window\pthread\dll\x64;F:\mpp_debug\mpp\inc;F:\mpp_debug\mpp\utils;F:\mpp_debug\mpp\osal\inc;F:\mpp_debug\mpp\mpp\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\mpp_debug\mpp\osal\window\pthread\inc;F:\mpp_debug\mpp\osal\window\pthread\lib\x64;F:\mpp_debug\mpp\osal\window\pthread\dll\x64;F:\mpp_debug\mpp\inc;F:\mpp_debug\mpp\utils;F:\mpp_debug\mpp\osal\inc;F:\mpp_debug\mpp\mpp\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\mpp_debug\mpp\osal\window\pthread\inc;F:\mpp_debug\mpp\osal\window\pthread\lib\x64;F:\mpp_debug\mpp\osal\window\pthread\dll\x64;F:\mpp_debug\mpp\inc;F:\mpp_debug\mpp\utils;F:\mpp_debug\mpp\osal\inc;F:\mpp_debug\mpp\mpp\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\mpp_debug\mpp\osal\window\pthread\inc;F:\mpp_debug\mpp\osal\window\pthread\lib\x64;F:\mpp_debug\mpp\osal\window\pthread\dll\x64;F:\mpp_debug\mpp\inc;F:\mpp_debug\mpp\utils;F:\mpp_debug\mpp\osal\inc;F:\mpp_debug\mpp\mpp\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\mpp_debug\mpp\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/mpp_debug/mpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\cmake\bin\cmake.exe -HF:/mpp_debug/mpp -BF:/mpp_debug/mpp/build --check-stamp-file F:\mpp_debug\mpp\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/mpp_debug/mpp/CMakeLists.txt;F:\mpp_debug\mpp\CMakeLists.txt;F:\mpp_debug\mpp\build\CMakeFiles\3.4.0-rc1\CMakeSystem.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;F:\mpp_debug\mpp\build\CMakeFiles\3.4.0-rc1\CMakeCCompiler.cmake;F:\mpp_debug\mpp\build\CMakeFiles\3.4.0-rc1\CMakeCXXCompiler.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;D:\cmake\share\cmake-3.4\Modules\Platform\Windows.cmake;D:\cmake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeCInformation.cmake;D:\cmake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;D:\cmake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;F:\mpp_debug\mpp\build\CMakeFiles\3.4.0-rc1\CMakeRCCompiler.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;D:\cmake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;D:\cmake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;D:\cmake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\cmake\share\cmake-3.4\Modules\CheckIncludeFiles.cmake;D:\cmake\share\cmake-3.4\Modules\CheckFunctionExists.cmake;D:\cmake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;D:\cmake\share\cmake-3.4\Modules\CheckCXXCompilerFlag.cmake;D:\cmake\share\cmake-3.4\Modules\CheckCXXSourceCompiles.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\cmake\share\cmake-3.4\Modules\FindGit.cmake;D:\cmake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\cmake\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;F:\mpp_debug\mpp\build\cmake\version.in;F:\mpp_debug\mpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\mpp_debug\mpp\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/mpp_debug/mpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\cmake\bin\cmake.exe -HF:/mpp_debug/mpp -BF:/mpp_debug/mpp/build --check-stamp-file F:\mpp_debug\mpp\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/mpp_debug/mpp/CMakeLists.txt;F:\mpp_debug\mpp\CMakeLists.txt;F:\mpp_debug\mpp\build\CMakeFiles\3.4.0-rc1\CMakeSystem.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;F:\mpp_debug\mpp\build\CMakeFiles\3.4.0-rc1\CMakeCCompiler.cmake;F:\mpp_debug\mpp\build\CMakeFiles\3.4.0-rc1\CMakeCXXCompiler.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;D:\cmake\share\cmake-3.4\Modules\Platform\Windows.cmake;D:\cmake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeCInformation.cmake;D:\cmake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;D:\cmake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;F:\mpp_debug\mpp\build\CMakeFiles\3.4.0-rc1\CMakeRCCompiler.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;D:\cmake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;D:\cmake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;D:\cmake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\cmake\share\cmake-3.4\Modules\CheckIncludeFiles.cmake;D:\cmake\share\cmake-3.4\Modules\CheckFunctionExists.cmake;D:\cmake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;D:\cmake\share\cmake-3.4\Modules\CheckCXXCompilerFlag.cmake;D:\cmake\share\cmake-3.4\Modules\CheckCXXSourceCompiles.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\cmake\share\cmake-3.4\Modules\FindGit.cmake;D:\cmake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\cmake\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;F:\mpp_debug\mpp\build\cmake\version.in;F:\mpp_debug\mpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\mpp_debug\mpp\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/mpp_debug/mpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\cmake\bin\cmake.exe -HF:/mpp_debug/mpp -BF:/mpp_debug/mpp/build --check-stamp-file F:\mpp_debug\mpp\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:/mpp_debug/mpp/CMakeLists.txt;F:\mpp_debug\mpp\CMakeLists.txt;F:\mpp_debug\mpp\build\CMakeFiles\3.4.0-rc1\CMakeSystem.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;F:\mpp_debug\mpp\build\CMakeFiles\3.4.0-rc1\CMakeCCompiler.cmake;F:\mpp_debug\mpp\build\CMakeFiles\3.4.0-rc1\CMakeCXXCompiler.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;D:\cmake\share\cmake-3.4\Modules\Platform\Windows.cmake;D:\cmake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeCInformation.cmake;D:\cmake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;D:\cmake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;F:\mpp_debug\mpp\build\CMakeFiles\3.4.0-rc1\CMakeRCCompiler.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;D:\cmake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;D:\cmake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;D:\cmake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\cmake\share\cmake-3.4\Modules\CheckIncludeFiles.cmake;D:\cmake\share\cmake-3.4\Modules\CheckFunctionExists.cmake;D:\cmake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;D:\cmake\share\cmake-3.4\Modules\CheckCXXCompilerFlag.cmake;D:\cmake\share\cmake-3.4\Modules\CheckCXXSourceCompiles.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\cmake\share\cmake-3.4\Modules\FindGit.cmake;D:\cmake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\cmake\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;F:\mpp_debug\mpp\build\cmake\version.in;F:\mpp_debug\mpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\mpp_debug\mpp\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/mpp_debug/mpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\cmake\bin\cmake.exe -HF:/mpp_debug/mpp -BF:/mpp_debug/mpp/build --check-stamp-file F:\mpp_debug\mpp\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:/mpp_debug/mpp/CMakeLists.txt;F:\mpp_debug\mpp\CMakeLists.txt;F:\mpp_debug\mpp\build\CMakeFiles\3.4.0-rc1\CMakeSystem.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;F:\mpp_debug\mpp\build\CMakeFiles\3.4.0-rc1\CMakeCCompiler.cmake;F:\mpp_debug\mpp\build\CMakeFiles\3.4.0-rc1\CMakeCXXCompiler.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;D:\cmake\share\cmake-3.4\Modules\Platform\Windows.cmake;D:\cmake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeCInformation.cmake;D:\cmake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;D:\cmake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;F:\mpp_debug\mpp\build\CMakeFiles\3.4.0-rc1\CMakeRCCompiler.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;D:\cmake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;D:\cmake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;D:\cmake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\cmake\share\cmake-3.4\Modules\CheckIncludeFiles.cmake;D:\cmake\share\cmake-3.4\Modules\CheckFunctionExists.cmake;D:\cmake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;D:\cmake\share\cmake-3.4\Modules\CheckCXXCompilerFlag.cmake;D:\cmake\share\cmake-3.4\Modules\CheckCXXSourceCompiles.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\cmake\share\cmake-3.4\Modules\FindGit.cmake;D:\cmake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\cmake\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\cmake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;F:\mpp_debug\mpp\build\cmake\version.in;F:\mpp_debug\mpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\mpp_debug\mpp\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/ZERO_CHECK.vcxproj">
+      <Project>1E97D60C-61C0-3F37-B57E-D4C9CB373D52</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/test/avsd_test.vcxproj">
+      <Project>7F2DFD9F-6A73-3012-8534-885C3905D729</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/codec/dec/avs/codec_avsd.vcxproj">
+      <Project>2F8E1FB6-AFF8-34D9-8C10-3F421510B229</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/codec/dec/dummy/codec_dummy_dec.vcxproj">
+      <Project>98E55896-82EC-3FE8-B7AB-EC349D9C9343</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/codec/enc/dummy/codec_dummy_enc.vcxproj">
+      <Project>3A7D7BB0-9CA0-3138-886D-A6AAA499719E</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/codec/dec/h263/codec_h263d.vcxproj">
+      <Project>89DC48A5-B396-30CC-A197-D1501362D988</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/codec/dec/h264/codec_h264d.vcxproj">
+      <Project>66F8EA15-5B19-3E5E-B95B-67BF4A430143</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/codec/enc/h264/codec_h264e.vcxproj">
+      <Project>5C9A5F78-3257-37C4-AE1D-55921A5585DA</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/codec/dec/h265/codec_h265d.vcxproj">
+      <Project>9ED53BC4-A9EE-36AD-9904-8CA3BA7D5D9F</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/codec/dec/jpeg/codec_jpegd.vcxproj">
+      <Project>9476C9DB-3E49-3734-B85A-4B728951BF58</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/codec/enc/jpeg/codec_jpege.vcxproj">
+      <Project>9E69C453-895F-3E05-8F91-372BF7404208</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/codec/dec/m2v/codec_mpeg2d.vcxproj">
+      <Project>A643A625-6366-3F71-A9ED-C32340EBF751</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/codec/dec/mpg4/codec_mpeg4d.vcxproj">
+      <Project>CE4E984B-1B25-324A-899A-8374F0CC2799</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/codec/dec/rmvb/codec_rmvbd.vcxproj">
+      <Project>7317CA69-7F8E-3284-8CB4-4ACF9673B857</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/codec/dec/vp8/codec_vp8d.vcxproj">
+      <Project>671B0D2F-73CA-3FED-A0FF-BDB9CCF42EDB</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/codec/dec/vp9/codec_vp9d.vcxproj">
+      <Project>0BF3E8AF-8D1B-350A-BF4C-6D668D365112</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/test/h264d_test.vcxproj">
+      <Project>333D961F-B776-3C5D-9C07-B380B90E17D6</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/hal/rkenc/h264e/test/h264e_hal_test.vcxproj">
+      <Project>92A97934-58CE-350D-BB83-A037DF314E79</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/codec/dec/h265/test/h265d_parser_test.vcxproj">
+      <Project>99093385-4C6B-3DA8-AC11-F4DA1168A24C</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/hal/rkdec/avsd/hal_avsd.vcxproj">
+      <Project>B441EE17-1700-3B1B-9890-A1666FB3D9E6</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/hal/dummy/hal_dummy.vcxproj">
+      <Project>17A11094-E196-3EB6-8941-C16B4619BDBD</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/hal/vpu/h263d/hal_h263d.vcxproj">
+      <Project>AFD546CA-9A65-340A-B439-C38B35E8910F</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/hal/rkenc/h264e/hal_h264e.vcxproj">
+      <Project>066DB3BB-9C93-31CD-97B0-942FF89AB978</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/hal/rkdec/h265d/hal_h265d.vcxproj">
+      <Project>7642F7BB-3E3D-3EA4-85E6-B038DEC20E62</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/hal/vpu/jpegd/hal_jpegd.vcxproj">
+      <Project>C5F2CCFF-C819-3104-8A9F-C8A78FC097F4</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/hal/vpu/jpege/hal_jpege.vcxproj">
+      <Project>F3632608-8839-3145-9AE8-4FED958616DC</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/hal/vpu/m2vd/hal_mpeg2d.vcxproj">
+      <Project>6FEEBC90-536D-3EFA-BBDF-A4E89C6E84A3</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/hal/vpu/mpg4d/hal_mpeg4d.vcxproj">
+      <Project>C13DD64C-ABCE-3447-A56C-34B642657D65</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/hal/vpu/rmvbd/hal_rmvbd.vcxproj">
+      <Project>8F021791-4173-3508-9FE9-7D06D3D6CE4A</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/hal/vpu/vp8d/hal_vp8d.vcxproj">
+      <Project>1BDF509D-7482-3A95-8345-886C54D14ED1</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/hal/rkdec/vp9d/hal_vp9d.vcxproj">
+      <Project>41FEAF39-C784-3B0D-9FBD-CFDB368912E2</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/test/jpegd_test.vcxproj">
+      <Project>3F8B68D1-2C2A-3F0B-AD5A-81CA6A6E498B</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/test/mpi_dec_test.vcxproj">
+      <Project>F25A268E-4278-35A3-88A0-58E82A83CA2D</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/test/mpi_enc_test.vcxproj">
+      <Project>E15DFD91-04A9-3AEE-9577-C5ECF9754C13</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/test/mpi_test.vcxproj">
+      <Project>3F3B1DBA-D437-3109-B776-903D396494D3</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/mpp.vcxproj">
+      <Project>46683E20-F1E0-3716-8ADC-B699D12AC272</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/base/mpp_base.vcxproj">
+      <Project>7AD1ADE2-E7BA-348B-84F5-4B7B18A6135D</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/test/mpp_buffer_test.vcxproj">
+      <Project>4680C6DA-E9AF-34BC-A5B3-7CE7DA4E416F</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/codec/mpp_codec.vcxproj">
+      <Project>37487A04-D442-3D70-BA3E-2119DDAA7003</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/osal/test/mpp_env_test.vcxproj">
+      <Project>5C05D2B7-71AB-38DD-B214-7672046A5807</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/hal/mpp_hal.vcxproj">
+      <Project>63CFA3B3-13C6-3F39-BB13-4BD9E6D74C58</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/test/mpp_info_test.vcxproj">
+      <Project>5F76581A-44E8-310F-BDEB-1E4D5CFDBDB7</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/legacy/mpp_legacy.vcxproj">
+      <Project>A6A40B84-8BA3-38EA-AAAE-A673FD347217</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/legacy/mpp_legacy_shared.vcxproj">
+      <Project>474E51FD-9F4C-3393-9C3E-69F1C4CD2F74</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/osal/test/mpp_log_test.vcxproj">
+      <Project>1177FA0A-737A-388D-B011-54D939D75B33</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/osal/test/mpp_mem_test.vcxproj">
+      <Project>5E3038F8-8670-381B-B673-47BAC161D36E</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/test/mpp_packet_test.vcxproj">
+      <Project>3F0B3FFB-A04B-3339-A47B-55D2A8F3F545</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/mpp_shared.vcxproj">
+      <Project>DB3E4FFE-E35A-3F94-A3EB-F218CB22050C</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/osal/test/mpp_thread_test.vcxproj">
+      <Project>A6FC848A-2900-3461-921F-D9C1A8BB0FFB</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/osal/osal.vcxproj">
+      <Project>FD791C75-B31F-3799-8D84-C9E632D61347</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/utils/utils.vcxproj">
+      <Project>514EFCC8-759B-365D-B8B2-7C30E003ADFA</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/mpp/test/vp9d_test.vcxproj">
+      <Project>84028D8A-0749-3878-9D18-58619B648904</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/test/vpu_api_test.vcxproj">
+      <Project>B9988616-FAC5-32E9-85C3-B5F9B11F5D61</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

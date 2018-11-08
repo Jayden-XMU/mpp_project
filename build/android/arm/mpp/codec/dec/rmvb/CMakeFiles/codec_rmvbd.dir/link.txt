@@ -1,0 +1,2 @@
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc-ar cr libcodec_rmvbd.a  CMakeFiles/codec_rmvbd.dir/rmvbd_parser.c.o
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ranlib libcodec_rmvbd.a

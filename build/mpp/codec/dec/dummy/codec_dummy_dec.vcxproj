@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{98E55896-82EC-3FE8-B7AB-EC349D9C9343}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>codec_dummy_dec</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\mpp_debug\mpp\build\mpp\codec\dec\dummy\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">codec_dummy_dec.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">codec_dummy_dec</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\mpp_debug\mpp\build\mpp\codec\dec\dummy\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">codec_dummy_dec.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">codec_dummy_dec</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\mpp_debug\mpp\build\mpp\codec\dec\dummy\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">codec_dummy_dec.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">codec_dummy_dec</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\mpp_debug\mpp\build\mpp\codec\dec\dummy\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">codec_dummy_dec.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">codec_dummy_dec</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\mpp_debug\mpp\osal\window\pthread\inc;F:\mpp_debug\mpp\osal\window\pthread\lib\x64;F:\mpp_debug\mpp\osal\window\pthread\dll\x64;F:\mpp_debug\mpp\inc;F:\mpp_debug\mpp\utils;F:\mpp_debug\mpp\osal\inc;F:\mpp_debug\mpp\mpp\inc;F:\mpp_debug\mpp\mpp\.;F:\mpp_debug\mpp\mpp\common;F:\mpp_debug\mpp\mpp\base\inc;F:\mpp_debug\mpp\mpp\codec\inc;F:\mpp_debug\mpp\mpp\hal\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;RK_DEBUG;ARCH_X86=1;ARCH_X64=1;_CRT_SECURE_NO_WARNINGS;HAVE_AVSD;HAVE_H263D;HAVE_H264D;HAVE_H265D;HAVE_MPEG2D;HAVE_MPEG4D;HAVE_VP8D;HAVE_VP9D;HAVE_JPEGD;HAVE_H264E;HAVE_JPEGE;HAVE_RMVBD;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;RK_DEBUG;ARCH_X86=1;ARCH_X64=1;_CRT_SECURE_NO_WARNINGS;HAVE_AVSD;HAVE_H263D;HAVE_H264D;HAVE_H265D;HAVE_MPEG2D;HAVE_MPEG4D;HAVE_VP8D;HAVE_VP9D;HAVE_JPEGD;HAVE_H264E;HAVE_JPEGE;HAVE_RMVBD;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\mpp_debug\mpp\osal\window\pthread\inc;F:\mpp_debug\mpp\osal\window\pthread\lib\x64;F:\mpp_debug\mpp\osal\window\pthread\dll\x64;F:\mpp_debug\mpp\inc;F:\mpp_debug\mpp\utils;F:\mpp_debug\mpp\osal\inc;F:\mpp_debug\mpp\mpp\inc;F:\mpp_debug\mpp\mpp\.;F:\mpp_debug\mpp\mpp\common;F:\mpp_debug\mpp\mpp\base\inc;F:\mpp_debug\mpp\mpp\codec\inc;F:\mpp_debug\mpp\mpp\hal\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\mpp_debug\mpp\osal\window\pthread\inc;F:\mpp_debug\mpp\osal\window\pthread\lib\x64;F:\mpp_debug\mpp\osal\window\pthread\dll\x64;F:\mpp_debug\mpp\inc;F:\mpp_debug\mpp\utils;F:\mpp_debug\mpp\osal\inc;F:\mpp_debug\mpp\mpp\inc;F:\mpp_debug\mpp\mpp\.;F:\mpp_debug\mpp\mpp\common;F:\mpp_debug\mpp\mpp\base\inc;F:\mpp_debug\mpp\mpp\codec\inc;F:\mpp_debug\mpp\mpp\hal\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\mpp_debug\mpp\osal\window\pthread\inc;F:\mpp_debug\mpp\osal\window\pthread\lib\x64;F:\mpp_debug\mpp\osal\window\pthread\dll\x64;F:\mpp_debug\mpp\inc;F:\mpp_debug\mpp\utils;F:\mpp_debug\mpp\osal\inc;F:\mpp_debug\mpp\mpp\inc;F:\mpp_debug\mpp\mpp\.;F:\mpp_debug\mpp\mpp\common;F:\mpp_debug\mpp\mpp\base\inc;F:\mpp_debug\mpp\mpp\codec\inc;F:\mpp_debug\mpp\mpp\hal\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;RK_DEBUG;ARCH_X86=1;ARCH_X64=1;_CRT_SECURE_NO_WARNINGS;HAVE_AVSD;HAVE_H263D;HAVE_H264D;HAVE_H265D;HAVE_MPEG2D;HAVE_MPEG4D;HAVE_VP8D;HAVE_VP9D;HAVE_JPEGD;HAVE_H264E;HAVE_JPEGE;HAVE_RMVBD;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;RK_DEBUG;ARCH_X86=1;ARCH_X64=1;_CRT_SECURE_NO_WARNINGS;HAVE_AVSD;HAVE_H263D;HAVE_H264D;HAVE_H265D;HAVE_MPEG2D;HAVE_MPEG4D;HAVE_VP8D;HAVE_VP9D;HAVE_JPEGD;HAVE_H264E;HAVE_JPEGE;HAVE_RMVBD;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\mpp_debug\mpp\osal\window\pthread\inc;F:\mpp_debug\mpp\osal\window\pthread\lib\x64;F:\mpp_debug\mpp\osal\window\pthread\dll\x64;F:\mpp_debug\mpp\inc;F:\mpp_debug\mpp\utils;F:\mpp_debug\mpp\osal\inc;F:\mpp_debug\mpp\mpp\inc;F:\mpp_debug\mpp\mpp\.;F:\mpp_debug\mpp\mpp\common;F:\mpp_debug\mpp\mpp\base\inc;F:\mpp_debug\mpp\mpp\codec\inc;F:\mpp_debug\mpp\mpp\hal\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\mpp_debug\mpp\osal\window\pthread\inc;F:\mpp_debug\mpp\osal\window\pthread\lib\x64;F:\mpp_debug\mpp\osal\window\pthread\dll\x64;F:\mpp_debug\mpp\inc;F:\mpp_debug\mpp\utils;F:\mpp_debug\mpp\osal\inc;F:\mpp_debug\mpp\mpp\inc;F:\mpp_debug\mpp\mpp\.;F:\mpp_debug\mpp\mpp\common;F:\mpp_debug\mpp\mpp\base\inc;F:\mpp_debug\mpp\mpp\codec\inc;F:\mpp_debug\mpp\mpp\hal\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\mpp_debug\mpp\osal\window\pthread\inc;F:\mpp_debug\mpp\osal\window\pthread\lib\x64;F:\mpp_debug\mpp\osal\window\pthread\dll\x64;F:\mpp_debug\mpp\inc;F:\mpp_debug\mpp\utils;F:\mpp_debug\mpp\osal\inc;F:\mpp_debug\mpp\mpp\inc;F:\mpp_debug\mpp\mpp\.;F:\mpp_debug\mpp\mpp\common;F:\mpp_debug\mpp\mpp\base\inc;F:\mpp_debug\mpp\mpp\codec\inc;F:\mpp_debug\mpp\mpp\hal\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;RK_DEBUG;ARCH_X86=1;ARCH_X64=1;_CRT_SECURE_NO_WARNINGS;HAVE_AVSD;HAVE_H263D;HAVE_H264D;HAVE_H265D;HAVE_MPEG2D;HAVE_MPEG4D;HAVE_VP8D;HAVE_VP9D;HAVE_JPEGD;HAVE_H264E;HAVE_JPEGE;HAVE_RMVBD;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;RK_DEBUG;ARCH_X86=1;ARCH_X64=1;_CRT_SECURE_NO_WARNINGS;HAVE_AVSD;HAVE_H263D;HAVE_H264D;HAVE_H265D;HAVE_MPEG2D;HAVE_MPEG4D;HAVE_VP8D;HAVE_VP9D;HAVE_JPEGD;HAVE_H264E;HAVE_JPEGE;HAVE_RMVBD;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\mpp_debug\mpp\osal\window\pthread\inc;F:\mpp_debug\mpp\osal\window\pthread\lib\x64;F:\mpp_debug\mpp\osal\window\pthread\dll\x64;F:\mpp_debug\mpp\inc;F:\mpp_debug\mpp\utils;F:\mpp_debug\mpp\osal\inc;F:\mpp_debug\mpp\mpp\inc;F:\mpp_debug\mpp\mpp\.;F:\mpp_debug\mpp\mpp\common;F:\mpp_debug\mpp\mpp\base\inc;F:\mpp_debug\mpp\mpp\codec\inc;F:\mpp_debug\mpp\mpp\hal\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\mpp_debug\mpp\osal\window\pthread\inc;F:\mpp_debug\mpp\osal\window\pthread\lib\x64;F:\mpp_debug\mpp\osal\window\pthread\dll\x64;F:\mpp_debug\mpp\inc;F:\mpp_debug\mpp\utils;F:\mpp_debug\mpp\osal\inc;F:\mpp_debug\mpp\mpp\inc;F:\mpp_debug\mpp\mpp\.;F:\mpp_debug\mpp\mpp\common;F:\mpp_debug\mpp\mpp\base\inc;F:\mpp_debug\mpp\mpp\codec\inc;F:\mpp_debug\mpp\mpp\hal\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\mpp_debug\mpp\osal\window\pthread\inc;F:\mpp_debug\mpp\osal\window\pthread\lib\x64;F:\mpp_debug\mpp\osal\window\pthread\dll\x64;F:\mpp_debug\mpp\inc;F:\mpp_debug\mpp\utils;F:\mpp_debug\mpp\osal\inc;F:\mpp_debug\mpp\mpp\inc;F:\mpp_debug\mpp\mpp\.;F:\mpp_debug\mpp\mpp\common;F:\mpp_debug\mpp\mpp\base\inc;F:\mpp_debug\mpp\mpp\codec\inc;F:\mpp_debug\mpp\mpp\hal\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;RK_DEBUG;ARCH_X86=1;ARCH_X64=1;_CRT_SECURE_NO_WARNINGS;HAVE_AVSD;HAVE_H263D;HAVE_H264D;HAVE_H265D;HAVE_MPEG2D;HAVE_MPEG4D;HAVE_VP8D;HAVE_VP9D;HAVE_JPEGD;HAVE_H264E;HAVE_JPEGE;HAVE_RMVBD;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;RK_DEBUG;ARCH_X86=1;ARCH_X64=1;_CRT_SECURE_NO_WARNINGS;HAVE_AVSD;HAVE_H263D;HAVE_H264D;HAVE_H265D;HAVE_MPEG2D;HAVE_MPEG4D;HAVE_VP8D;HAVE_VP9D;HAVE_JPEGD;HAVE_H264E;HAVE_JPEGE;HAVE_RMVBD;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\mpp_debug\mpp\osal\window\pthread\inc;F:\mpp_debug\mpp\osal\window\pthread\lib\x64;F:\mpp_debug\mpp\osal\window\pthread\dll\x64;F:\mpp_debug\mpp\inc;F:\mpp_debug\mpp\utils;F:\mpp_debug\mpp\osal\inc;F:\mpp_debug\mpp\mpp\inc;F:\mpp_debug\mpp\mpp\.;F:\mpp_debug\mpp\mpp\common;F:\mpp_debug\mpp\mpp\base\inc;F:\mpp_debug\mpp\mpp\codec\inc;F:\mpp_debug\mpp\mpp\hal\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\mpp_debug\mpp\osal\window\pthread\inc;F:\mpp_debug\mpp\osal\window\pthread\lib\x64;F:\mpp_debug\mpp\osal\window\pthread\dll\x64;F:\mpp_debug\mpp\inc;F:\mpp_debug\mpp\utils;F:\mpp_debug\mpp\osal\inc;F:\mpp_debug\mpp\mpp\inc;F:\mpp_debug\mpp\mpp\.;F:\mpp_debug\mpp\mpp\common;F:\mpp_debug\mpp\mpp\base\inc;F:\mpp_debug\mpp\mpp\codec\inc;F:\mpp_debug\mpp\mpp\hal\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\mpp_debug\mpp\mpp\codec\dec\dummy\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/mpp_debug/mpp/mpp/codec/dec/dummy/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\cmake\bin\cmake.exe -HF:/mpp_debug/mpp -BF:/mpp_debug/mpp/build --check-stamp-file F:\mpp_debug\mpp\build\mpp\codec\dec\dummy\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/mpp_debug/mpp/mpp/codec/dec/dummy/CMakeLists.txt;F:\mpp_debug\mpp\mpp\codec\dec\dummy\CMakeLists.txt;F:\mpp_debug\mpp\mpp\codec\dec\dummy\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\mpp_debug\mpp\build\mpp\codec\dec\dummy\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/mpp_debug/mpp/mpp/codec/dec/dummy/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\cmake\bin\cmake.exe -HF:/mpp_debug/mpp -BF:/mpp_debug/mpp/build --check-stamp-file F:\mpp_debug\mpp\build\mpp\codec\dec\dummy\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/mpp_debug/mpp/mpp/codec/dec/dummy/CMakeLists.txt;F:\mpp_debug\mpp\mpp\codec\dec\dummy\CMakeLists.txt;F:\mpp_debug\mpp\mpp\codec\dec\dummy\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\mpp_debug\mpp\build\mpp\codec\dec\dummy\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/mpp_debug/mpp/mpp/codec/dec/dummy/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\cmake\bin\cmake.exe -HF:/mpp_debug/mpp -BF:/mpp_debug/mpp/build --check-stamp-file F:\mpp_debug\mpp\build\mpp\codec\dec\dummy\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:/mpp_debug/mpp/mpp/codec/dec/dummy/CMakeLists.txt;F:\mpp_debug\mpp\mpp\codec\dec\dummy\CMakeLists.txt;F:\mpp_debug\mpp\mpp\codec\dec\dummy\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\mpp_debug\mpp\build\mpp\codec\dec\dummy\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/mpp_debug/mpp/mpp/codec/dec/dummy/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\cmake\bin\cmake.exe -HF:/mpp_debug/mpp -BF:/mpp_debug/mpp/build --check-stamp-file F:\mpp_debug\mpp\build\mpp\codec\dec\dummy\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:/mpp_debug/mpp/mpp/codec/dec/dummy/CMakeLists.txt;F:\mpp_debug\mpp\mpp\codec\dec\dummy\CMakeLists.txt;F:\mpp_debug\mpp\mpp\codec\dec\dummy\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\mpp_debug\mpp\build\mpp\codec\dec\dummy\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\inc\dummy_dec_api.h" />
+    <ClCompile Include="F:\mpp_debug\mpp\mpp\codec\dec\dummy\dummy_dec_api.c"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:/mpp_debug/mpp/build/ZERO_CHECK.vcxproj">
+      <Project>1E97D60C-61C0-3F37-B57E-D4C9CB373D52</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

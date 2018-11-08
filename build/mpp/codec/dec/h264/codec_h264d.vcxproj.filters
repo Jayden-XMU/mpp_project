@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_api.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_log.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_parse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_slice.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_sps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_pps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_scalist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_sei.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_dpb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_fill.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_rwfile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\inc\h264d_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\common\h264d_log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\common\h264d_syntax.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_parse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_slice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_sps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_pps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_scalist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_sei.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_dpb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_fill.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_rwfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\mpp_debug\mpp\mpp\codec\dec\h264\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E877BBFC-064D-3F88-ACD3-7DA9585EE887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3D87EF96-7E19-3D8A-80B3-5FCD5C6AA781}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

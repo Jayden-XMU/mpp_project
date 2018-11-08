@@ -1,0 +1,2 @@
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc-ar cr libhal_rmvbd.a  CMakeFiles/hal_rmvbd.dir/hal_rmvbd_reg.c.o
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ranlib libhal_rmvbd.a

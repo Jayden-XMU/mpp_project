@@ -1,0 +1,10 @@
+﻿生成启动时间为 2017/1/17 21:29:26。
+     1>项目“F:\mpp_debug\mpp\build\ALL_BUILD.vcxproj”在节点 4 上(Build 个目标)。
+     1>CustomBuild:
+         Building Custom Rule F:/mpp_debug/mpp/CMakeLists.txt
+         CMake does not need to re-run because F:\mpp_debug\mpp\build\CMakeFiles\generate.stamp is up-to-date.
+     1>已完成生成项目“F:\mpp_debug\mpp\build\ALL_BUILD.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.56

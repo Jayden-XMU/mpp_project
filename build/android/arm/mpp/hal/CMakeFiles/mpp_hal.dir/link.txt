@@ -1,0 +1,2 @@
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc-ar cr libmpp_hal.a  CMakeFiles/mpp_hal.dir/hal_task.cpp.o CMakeFiles/mpp_hal.dir/mpp_hal.cpp.o CMakeFiles/mpp_hal.dir/hal_regdrv.c.o
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ranlib libmpp_hal.a

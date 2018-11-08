@@ -1,0 +1,39 @@
+﻿生成启动时间为 2017/1/17 21:28:19。
+     1>项目“F:\mpp_debug\mpp\build\osal\osal.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Building Custom Rule F:/mpp_debug/mpp/osal/CMakeLists.txt
+         CMake does not need to re-run because F:\mpp_debug\mpp\build\osal\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         D:\vs2013\VC\bin\x86_amd64\CL.exe /c /IF:\mpp_debug\mpp\osal\window\pthread\inc /IF:\mpp_debug\mpp\osal\window\pthread\lib\x64 /IF:\mpp_debug\mpp\osal\window\pthread\dll\x64 /IF:\mpp_debug\mpp\inc /IF:\mpp_debug\mpp\utils /IF:\mpp_debug\mpp\osal\inc /IF:\mpp_debug\mpp\osal\. /IF:\mpp_debug\mpp\osal\.\allocator /Zi /nologo /W3 /WX- /MP /Od /Ob2 /D WIN32 /D _WINDOWS /D _DEBUG /D RK_DEBUG /D ARCH_X86=1 /D ARCH_X64=1 /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"osal.dir\Debug\\" /Fd"osal.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt F:\mpp_debug\mpp\osal\mpp_allocator.cpp F:\mpp_debug\mpp\osal\mpp_thread.cpp F:\mpp_debug\mpp\osal\mpp_common.cpp F:\mpp_debug\mpp\osal\mpp_time.cpp F:\mpp_debug\mpp\osal\mpp_list.cpp F:\mpp_debug\mpp\osal\mpp_mem.cpp F:\mpp_debug\mpp\osal\mpp_env.cpp F:\mpp_debug\mpp\osal\mpp_log.cpp
+         mpp_allocator.cpp
+         mpp_thread.cpp
+         mpp_common.cpp
+         mpp_time.cpp
+         mpp_list.cpp
+         mpp_mem.cpp
+         mpp_env.cpp
+         mpp_log.cpp
+         D:\vs2013\VC\bin\x86_amd64\CL.exe /c /IF:\mpp_debug\mpp\osal\window\pthread\inc /IF:\mpp_debug\mpp\osal\window\pthread\lib\x64 /IF:\mpp_debug\mpp\osal\window\pthread\dll\x64 /IF:\mpp_debug\mpp\inc /IF:\mpp_debug\mpp\utils /IF:\mpp_debug\mpp\osal\inc /IF:\mpp_debug\mpp\osal\. /IF:\mpp_debug\mpp\osal\.\allocator /Zi /nologo /W3 /WX- /MP /Od /Ob2 /D WIN32 /D _WINDOWS /D _DEBUG /D RK_DEBUG /D ARCH_X86=1 /D ARCH_X64=1 /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"osal.dir\Debug\\" /Fd"osal.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt F:\mpp_debug\mpp\osal\window\os_allocator.c F:\mpp_debug\mpp\osal\window\os_mem.c F:\mpp_debug\mpp\osal\window\os_env.c F:\mpp_debug\mpp\osal\window\os_log.c
+         os_allocator.c
+         os_mem.c
+         os_env.c
+         os_log.c
+       Lib:
+         D:\vs2013\VC\bin\x86_amd64\Lib.exe /OUT:"F:\mpp_debug\mpp\build\osal\Debug\osal.lib" /NOLOGO /MACHINE:X64  /machine:x64 osal.dir\Debug\mpp_allocator.obj
+         osal.dir\Debug\mpp_thread.obj
+         osal.dir\Debug\mpp_common.obj
+         osal.dir\Debug\mpp_time.obj
+         osal.dir\Debug\mpp_list.obj
+         osal.dir\Debug\mpp_mem.obj
+         osal.dir\Debug\mpp_env.obj
+         osal.dir\Debug\mpp_log.obj
+         osal.dir\Debug\os_allocator.obj
+         osal.dir\Debug\os_mem.obj
+         osal.dir\Debug\os_env.obj
+         osal.dir\Debug\os_log.obj
+         osal.vcxproj -> F:\mpp_debug\mpp\build\osal\Debug\osal.lib
+     1>已完成生成项目“F:\mpp_debug\mpp\build\osal\osal.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.72

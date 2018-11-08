@@ -1,0 +1,51 @@
+Performing C++ SOURCE FILE Test GCC_HAS_NO_NARROWING failed with the following output:
+Change Dir: /home/dzx/mpp_debug/mpp/build/android/arm/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1867818377/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1867818377.dir/build.make CMakeFiles/cmTryCompileExec1867818377.dir/build
+make[1]: Entering directory `/home/dzx/mpp_debug/mpp/build/android/arm/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dzx/mpp_debug/mpp/build/android/arm/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1867818377.dir/src.cxx.o
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++   -DANDROID -fno-exceptions -fno-rtti -Wno-psabi --sysroot=/home/pub/ndk/android-ndk-r10d/platforms/android-21/arch-arm -funwind-tables -funswitch-loops -finline-limit=300 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack  -DGCC_HAS_NO_NARROWING -fPIE -isystem /home/pub/ndk/android-ndk-r10d/platforms/android-21/arch-arm/usr/include -isystem /home/pub/ndk/android-ndk-r10d/sources/cxx-stl/system/include    -Wno-narrowing -o CMakeFiles/cmTryCompileExec1867818377.dir/src.cxx.o -c /home/dzx/mpp_debug/mpp/build/android/arm/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1867818377
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1867818377.dir/link.txt --verbose=1
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++  -fno-exceptions -fno-rtti -Wno-psabi --sysroot=/home/pub/ndk/android-ndk-r10d/platforms/android-21/arch-arm -funwind-tables -funswitch-loops -finline-limit=300 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack  -DGCC_HAS_NO_NARROWING   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-dynamic-linker,/system/bin/linker  -Wl,-z,nocopyreloc -fPIE -pie CMakeFiles/cmTryCompileExec1867818377.dir/src.cxx.o -o cmTryCompileExec1867818377  -L/home/pub/ndk/android-ndk-r10d/platforms/android-21/arch-arm/usr/lib -rdynamic  /home/pub/ndk/android-ndk-r10d/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o /home/pub/ndk/android-ndk-r10d/platforms/android-21/arch-arm/usr/lib/crtend_android.o /home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/libgcc.a
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/pub/ndk/android-ndk-r10d/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o: multiple definition of '__atexit_handler_wrapper'
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: /home/pub/ndk/android-ndk-r10d/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o: previous definition here
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/pub/ndk/android-ndk-r10d/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o: multiple definition of '_start'
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: /home/pub/ndk/android-ndk-r10d/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o: previous definition here
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/pub/ndk/android-ndk-r10d/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o: multiple definition of '__PREINIT_ARRAY__'
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: /home/pub/ndk/android-ndk-r10d/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o: previous definition here
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/pub/ndk/android-ndk-r10d/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o: multiple definition of '__INIT_ARRAY__'
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: /home/pub/ndk/android-ndk-r10d/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o: previous definition here
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/pub/ndk/android-ndk-r10d/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o: multiple definition of '__FINI_ARRAY__'
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: /home/pub/ndk/android-ndk-r10d/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o: previous definition here
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/pub/ndk/android-ndk-r10d/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o: multiple definition of '__CTOR_LIST__'
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: /home/pub/ndk/android-ndk-r10d/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o: previous definition here
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/pub/ndk/android-ndk-r10d/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o: multiple definition of 'atexit'
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: /home/pub/ndk/android-ndk-r10d/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o: previous definition here
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/pub/ndk/android-ndk-r10d/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o: multiple definition of '__dso_handle'
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: /home/pub/ndk/android-ndk-r10d/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o: previous definition here
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/dzx/mpp_debug/mpp/build/android/arm/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec1867818377] Error 1
+make: *** [cmTryCompileExec1867818377/fast] Error 2
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test GCC_HAS_STACK_REALIGN failed with the following output:
+Change Dir: /home/dzx/mpp_debug/mpp/build/android/arm/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1396280863/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1396280863.dir/build.make CMakeFiles/cmTryCompileExec1396280863.dir/build
+make[1]: Entering directory `/home/dzx/mpp_debug/mpp/build/android/arm/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dzx/mpp_debug/mpp/build/android/arm/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1396280863.dir/src.cxx.o
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++   -DANDROID -fno-exceptions -fno-rtti -Wno-psabi --sysroot=/home/pub/ndk/android-ndk-r10d/platforms/android-21/arch-arm -funwind-tables -funswitch-loops -finline-limit=300 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack  -DGCC_HAS_STACK_REALIGN -fPIE -isystem /home/pub/ndk/android-ndk-r10d/platforms/android-21/arch-arm/usr/include -isystem /home/pub/ndk/android-ndk-r10d/sources/cxx-stl/system/include    -mstackrealign -o CMakeFiles/cmTryCompileExec1396280863.dir/src.cxx.o -c /home/dzx/mpp_debug/mpp/build/android/arm/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: unrecognized command line option '-mstackrealign'
+make[1]: Leaving directory `/home/dzx/mpp_debug/mpp/build/android/arm/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1396280863.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec1396280863/fast] Error 2
+
+Source file was:
+int main() { return 0;}

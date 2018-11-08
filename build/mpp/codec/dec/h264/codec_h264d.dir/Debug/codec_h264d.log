@@ -1,0 +1,39 @@
+﻿生成启动时间为 2017/1/17 21:28:55。
+     1>项目“F:\mpp_debug\mpp\build\mpp\codec\dec\h264\codec_h264d.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Building Custom Rule F:/mpp_debug/mpp/mpp/codec/dec/h264/CMakeLists.txt
+         CMake does not need to re-run because F:\mpp_debug\mpp\build\mpp\codec\dec\h264\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         D:\vs2013\VC\bin\x86_amd64\CL.exe /c /IF:\mpp_debug\mpp\osal\window\pthread\inc /IF:\mpp_debug\mpp\osal\window\pthread\lib\x64 /IF:\mpp_debug\mpp\osal\window\pthread\dll\x64 /IF:\mpp_debug\mpp\inc /IF:\mpp_debug\mpp\utils /IF:\mpp_debug\mpp\osal\inc /IF:\mpp_debug\mpp\mpp\inc /IF:\mpp_debug\mpp\mpp\. /IF:\mpp_debug\mpp\mpp\common /IF:\mpp_debug\mpp\mpp\base\inc /IF:\mpp_debug\mpp\mpp\codec\inc /IF:\mpp_debug\mpp\mpp\hal\inc /IF:\mpp_debug\mpp\mpp\codec\dec\h264\. /Zi /nologo /W3 /WX- /MP /Od /Ob2 /D WIN32 /D _WINDOWS /D _DEBUG /D RK_DEBUG /D ARCH_X86=1 /D ARCH_X64=1 /D _CRT_SECURE_NO_WARNINGS /D HAVE_AVSD /D HAVE_H263D /D HAVE_H264D /D HAVE_H265D /D HAVE_MPEG2D /D HAVE_MPEG4D /D HAVE_VP8D /D HAVE_VP9D /D HAVE_JPEGD /D HAVE_H264E /D HAVE_JPEGE /D HAVE_RMVBD /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"codec_h264d.dir\Debug\\" /Fd"codec_h264d.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_api.c F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_log.c F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_parse.c F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_slice.c F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_sps.c F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_pps.c F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_scalist.c F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_sei.c F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_dpb.c F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_init.c F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_fill.c F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_rwfile.c
+         h264d_api.c
+         h264d_log.c
+         h264d_parse.c
+         h264d_slice.c
+         h264d_sps.c
+     1>F:\mpp_debug\mpp\mpp\codec\dec\h264\h264d_parse.c(663): warning C4267: “初始化”: 从“size_t”转换到“RK_U32”，可能丢失数据
+         h264d_pps.c
+         h264d_scalist.c
+         h264d_sei.c
+         h264d_dpb.c
+         h264d_init.c
+         h264d_fill.c
+         h264d_rwfile.c
+       Lib:
+         D:\vs2013\VC\bin\x86_amd64\Lib.exe /OUT:"F:\mpp_debug\mpp\build\mpp\codec\dec\h264\Debug\codec_h264d.lib" /NOLOGO /MACHINE:X64  /machine:x64 codec_h264d.dir\Debug\h264d_api.obj
+         codec_h264d.dir\Debug\h264d_log.obj
+         codec_h264d.dir\Debug\h264d_parse.obj
+         codec_h264d.dir\Debug\h264d_slice.obj
+         codec_h264d.dir\Debug\h264d_sps.obj
+         codec_h264d.dir\Debug\h264d_pps.obj
+         codec_h264d.dir\Debug\h264d_scalist.obj
+         codec_h264d.dir\Debug\h264d_sei.obj
+         codec_h264d.dir\Debug\h264d_dpb.obj
+         codec_h264d.dir\Debug\h264d_init.obj
+         codec_h264d.dir\Debug\h264d_fill.obj
+         codec_h264d.dir\Debug\h264d_rwfile.obj
+         codec_h264d.vcxproj -> F:\mpp_debug\mpp\build\mpp\codec\dec\h264\Debug\codec_h264d.lib
+     1>已完成生成项目“F:\mpp_debug\mpp\build\mpp\codec\dec\h264\codec_h264d.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.22

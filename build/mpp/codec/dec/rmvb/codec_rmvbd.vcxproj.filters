@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\mpp_debug\mpp\mpp\codec\dec\rmvb\rmvbd_parser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\dec\rmvb\rmvbd_parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\mpp_debug\mpp\mpp\codec\dec\rmvb\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E877BBFC-064D-3F88-ACD3-7DA9585EE887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3D87EF96-7E19-3D8A-80B3-5FCD5C6AA781}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

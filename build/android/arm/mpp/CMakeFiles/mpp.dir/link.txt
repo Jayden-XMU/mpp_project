@@ -1,0 +1,2 @@
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc-ar cr libmpp.a  CMakeFiles/mpp.dir/mpp_info.cpp.o CMakeFiles/mpp.dir/mpp.cpp.o CMakeFiles/mpp.dir/mpi_impl.cpp.o CMakeFiles/mpp.dir/mpi.cpp.o
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ranlib libmpp.a

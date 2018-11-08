@@ -1,0 +1,2 @@
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc-ar cr libhal_dummy.a  CMakeFiles/hal_dummy.dir/hal_dummy_dec_api.c.o CMakeFiles/hal_dummy.dir/hal_dummy_enc_api.c.o
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ranlib libhal_dummy.a

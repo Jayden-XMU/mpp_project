@@ -1,0 +1,2 @@
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc-ar cr libcodec_vp8d.a  CMakeFiles/codec_vp8d.dir/vp8d_api.c.o CMakeFiles/codec_vp8d.dir/vp8d_parser.c.o
+/home/pub/ndk/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ranlib libcodec_vp8d.a

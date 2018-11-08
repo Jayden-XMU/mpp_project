@@ -1,0 +1,56 @@
+﻿生成启动时间为 2017/1/17 21:27:57。
+     1>项目“F:\mpp_debug\mpp\build\ZERO_CHECK.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/osal/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/osal/test/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/utils/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/base/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/codec/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/codec/dec/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/codec/dec/dummy/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/codec/dec/avs/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/codec/dec/h263/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/codec/dec/h264/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/codec/dec/h265/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/codec/dec/h265/test/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/codec/dec/m2v/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/codec/dec/mpg4/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/codec/dec/vp8/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/codec/dec/rmvb/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/codec/dec/vp9/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/codec/dec/jpeg/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/codec/enc/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/codec/enc/dummy/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/codec/enc/h264/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/codec/enc/jpeg/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/hal/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/hal/vpu/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/hal/vpu/h263d/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/hal/vpu/m2vd/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/hal/vpu/mpg4d/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/hal/vpu/vp8d/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/hal/vpu/jpegd/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/hal/vpu/rmvbd/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/hal/vpu/jpege/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/hal/rkdec/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/hal/rkdec/h264d/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/hal/rkdec/h265d/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/hal/rkdec/vp9d/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/hal/rkenc/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/hal/rkenc/h264e/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/hal/rkenc/h264e/test/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/hal/dummy/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/hal/rkdec/avsd/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/hal/worker/libvpu/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/hal/worker/libv4l2/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/legacy/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/mpp/test/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/mpp_debug/mpp/build/test/CMakeFiles/generate.stamp is up-to-date.
+     1>已完成生成项目“F:\mpp_debug\mpp\build\ZERO_CHECK.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:21.90

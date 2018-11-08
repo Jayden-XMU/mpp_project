@@ -1,0 +1,28 @@
+﻿生成启动时间为 2017/1/17 21:29:12。
+     1>项目“F:\mpp_debug\mpp\build\mpp\legacy\mpp_legacy.vcxproj”在节点 4 上(Build 个目标)。
+     1>CustomBuild:
+         Building Custom Rule F:/mpp_debug/mpp/mpp/legacy/CMakeLists.txt
+         CMake does not need to re-run because F:\mpp_debug\mpp\build\mpp\legacy\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         D:\vs2013\VC\bin\x86_amd64\CL.exe /c /IF:\mpp_debug\mpp\osal\window\pthread\inc /IF:\mpp_debug\mpp\osal\window\pthread\lib\x64 /IF:\mpp_debug\mpp\osal\window\pthread\dll\x64 /IF:\mpp_debug\mpp\inc /IF:\mpp_debug\mpp\utils /IF:\mpp_debug\mpp\osal\inc /IF:\mpp_debug\mpp\mpp\inc /IF:\mpp_debug\mpp\mpp\. /IF:\mpp_debug\mpp\mpp\common /IF:\mpp_debug\mpp\mpp\base\inc /IF:\mpp_debug\mpp\mpp\codec\inc /IF:\mpp_debug\mpp\mpp\hal\inc /IF:\mpp_debug\mpp\mpp\legacy\. /Zi /nologo /W3 /WX- /MP /Od /Ob2 /D WIN32 /D _WINDOWS /D _DEBUG /D RK_DEBUG /D ARCH_X86=1 /D ARCH_X64=1 /D _CRT_SECURE_NO_WARNINGS /D HAVE_AVSD /D HAVE_H263D /D HAVE_H264D /D HAVE_H265D /D HAVE_MPEG2D /D HAVE_MPEG4D /D HAVE_VP8D /D HAVE_VP9D /D HAVE_JPEGD /D HAVE_H264E /D HAVE_JPEGE /D HAVE_RMVBD /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"mpp_legacy.dir\Debug\\" /Fd"mpp_legacy.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt F:\mpp_debug\mpp\mpp\legacy\vpu_api.cpp F:\mpp_debug\mpp\mpp\legacy\vpu_api_legacy.cpp F:\mpp_debug\mpp\mpp\legacy\rk_list.cpp F:\mpp_debug\mpp\mpp\legacy\ppOp.cpp F:\mpp_debug\mpp\mpp\mpp_info.cpp
+         vpu_api.cpp
+         vpu_api_legacy.cpp
+         rk_list.cpp
+         ppOp.cpp
+         mpp_info.cpp
+     1>F:\mpp_debug\mpp\mpp\legacy\vpu_api_legacy.cpp(599): warning C4267: “=”: 从“size_t”转换到“RK_U32”，可能丢失数据
+         D:\vs2013\VC\bin\x86_amd64\CL.exe /c /IF:\mpp_debug\mpp\osal\window\pthread\inc /IF:\mpp_debug\mpp\osal\window\pthread\lib\x64 /IF:\mpp_debug\mpp\osal\window\pthread\dll\x64 /IF:\mpp_debug\mpp\inc /IF:\mpp_debug\mpp\utils /IF:\mpp_debug\mpp\osal\inc /IF:\mpp_debug\mpp\mpp\inc /IF:\mpp_debug\mpp\mpp\. /IF:\mpp_debug\mpp\mpp\common /IF:\mpp_debug\mpp\mpp\base\inc /IF:\mpp_debug\mpp\mpp\codec\inc /IF:\mpp_debug\mpp\mpp\hal\inc /IF:\mpp_debug\mpp\mpp\legacy\. /Zi /nologo /W3 /WX- /MP /Od /Ob2 /D WIN32 /D _WINDOWS /D _DEBUG /D RK_DEBUG /D ARCH_X86=1 /D ARCH_X64=1 /D _CRT_SECURE_NO_WARNINGS /D HAVE_AVSD /D HAVE_H263D /D HAVE_H264D /D HAVE_H265D /D HAVE_MPEG2D /D HAVE_MPEG4D /D HAVE_VP8D /D HAVE_VP9D /D HAVE_JPEGD /D HAVE_H264E /D HAVE_JPEGE /D HAVE_RMVBD /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"mpp_legacy.dir\Debug\\" /Fd"mpp_legacy.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt F:\mpp_debug\mpp\mpp\legacy\vpu_mem_legacy.c
+         vpu_mem_legacy.c
+       Lib:
+         D:\vs2013\VC\bin\x86_amd64\Lib.exe /OUT:"F:\mpp_debug\mpp\build\mpp\legacy\Debug\mpp_legacy.lib" /NOLOGO /MACHINE:X64  /machine:x64 mpp_legacy.dir\Debug\vpu_api.obj
+         mpp_legacy.dir\Debug\vpu_api_legacy.obj
+         mpp_legacy.dir\Debug\vpu_mem_legacy.obj
+         mpp_legacy.dir\Debug\rk_list.obj
+         mpp_legacy.dir\Debug\ppOp.obj
+         mpp_legacy.dir\Debug\mpp_info.obj
+         mpp_legacy.vcxproj -> F:\mpp_debug\mpp\build\mpp\legacy\Debug\mpp_legacy.lib
+     1>已完成生成项目“F:\mpp_debug\mpp\build\mpp\legacy\mpp_legacy.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.88

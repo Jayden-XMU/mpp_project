@@ -1,0 +1,16 @@
+﻿生成启动时间为 2017/1/17 21:28:35。
+     1>项目“F:\mpp_debug\mpp\build\osal\test\mpp_mem_test.vcxproj”在节点 4 上(Build 个目标)。
+     1>CustomBuild:
+         Building Custom Rule F:/mpp_debug/mpp/osal/test/CMakeLists.txt
+         CMake does not need to re-run because F:\mpp_debug\mpp\build\osal\test\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         D:\vs2013\VC\bin\x86_amd64\CL.exe /c /IF:\mpp_debug\mpp\osal\window\pthread\inc /IF:\mpp_debug\mpp\osal\window\pthread\lib\x64 /IF:\mpp_debug\mpp\osal\window\pthread\dll\x64 /IF:\mpp_debug\mpp\inc /IF:\mpp_debug\mpp\utils /IF:\mpp_debug\mpp\osal\inc /IF:\mpp_debug\mpp\osal\. /IF:\mpp_debug\mpp\osal\.\allocator /Zi /nologo /W3 /WX- /MP /Od /Ob2 /D WIN32 /D _WINDOWS /D _DEBUG /D RK_DEBUG /D ARCH_X86=1 /D ARCH_X64=1 /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"mpp_mem_test.dir\Debug\\" /Fd"mpp_mem_test.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt F:\mpp_debug\mpp\osal\test\mpp_mem_test.c
+         mpp_mem_test.c
+       Link:
+         D:\vs2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\mpp_debug\mpp\build\osal\test\Debug\mpp_mem_test.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\Debug\osal.lib ..\..\..\osal\window\pthread\lib\x64\pthreadVC2.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/mpp_debug/mpp/build/osal/test/Debug/mpp_mem_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/mpp_debug/mpp/build/osal/test/Debug/mpp_mem_test.lib" /MACHINE:X64  /machine:x64 /debug mpp_mem_test.dir\Debug\mpp_mem_test.obj
+         mpp_mem_test.vcxproj -> F:\mpp_debug\mpp\build\osal\test\Debug\mpp_mem_test.exe
+     1>已完成生成项目“F:\mpp_debug\mpp\build\osal\test\mpp_mem_test.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.72

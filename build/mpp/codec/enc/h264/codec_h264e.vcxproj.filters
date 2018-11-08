@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\src\H264CodeFrame.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\src\H264EncApi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\src\H264Init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\src\H264Mad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\src\H264NalUnit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\src\H264PictureParameterSet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\src\H264PutBits.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\src\H264RateControl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\src\H264Sei.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\src\H264SequenceParameterSet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\src\H264Slice.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\src\encasiccontroller.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\src\encpreprocess.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\src\h264e_api.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\src\h264e_utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\include\H264CodeFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\include\H264Init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\include\H264Instance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\include\H264Mad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\include\H264NalUnit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\include\H264PictureParameterSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\include\H264PutBits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\include\H264RateControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\include\H264Sei.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\include\H264SequenceParameterSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\include\H264Slice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\include\encasiccontroller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\include\enccommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\include\encpreprocess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\include\h264encapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\include\h264e_codec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\include\h264e_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\mpp_debug\mpp\mpp\codec\enc\h264\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E877BBFC-064D-3F88-ACD3-7DA9585EE887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3D87EF96-7E19-3D8A-80B3-5FCD5C6AA781}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
